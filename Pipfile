@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = {version="*", index="pypi"}
+numpy = {version="*", index="pypi"}
+scipy = {version="*", index="pypi"}
+matplotlib = {version="*", index="pypi"}
+
+[requires]
+python_version = "3.6"
